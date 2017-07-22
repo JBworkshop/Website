@@ -25,6 +25,7 @@ background-color: LightCyan;
 }
 article{
 background: Gainsboro;
+font-size: 16px
 }
 tbody{
 background-color: LightCyan;
@@ -49,11 +50,13 @@ margin: 2%;
 nav{
 	
 	background-color:lightgray;
+	font-size: 20px;
+	font-family: 
 }
 
 nav>ul{
 	display:flex;
-	justify-content: flex-end;
+	justify-content:center;
 }
 
 
@@ -62,9 +65,9 @@ nav>ul>li {
 	
 }
 
-/* nav>ul>li>a{
+nav>ul>li>a{
 	text-decoration:none;
-} */
+}
 
 nav>ul>li>a:link{
 	color:red;
@@ -93,7 +96,7 @@ nav>ul>li>a:active{
 
 /*whitespace*/
 article, footer, header{
-	padding: 2%; 
+	padding: 4%; 
 }
 
 /*Figure*/
